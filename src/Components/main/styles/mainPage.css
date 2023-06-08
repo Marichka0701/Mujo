@@ -1,0 +1,179 @@
+.mainPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* top black block */
+.advertisement {
+    width: 100%;
+    height: 44px;
+    background: #333333;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.6vh 4.5vw;
+}
+
+.advertisement div {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: rgba(255, 254, 243, 1);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* header */
+/* nav menu */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2vh 4.1vw;
+
+    border-bottom: 1px solid #C6C6BD;
+}
+
+nav ul li {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+nav > ul:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 4.1vw;
+}
+
+.logo-nav {
+    width: 3.4vw;
+}
+
+nav > div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 2.7vw;
+}
+
+nav > div:nth-child(3) > ul {
+    display: flex;
+    align-items: center;
+    gap: 2.2vw;
+}
+
+nav button {
+    background: #333333;
+    width: 162px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFEF3;
+}
+
+/* main frame */
+main {
+    flex: 1;
+}
+
+/* footer */
+footer {
+    flex: 0;
+    padding: 9.3vh 4.1vw 2.2vh;
+}
+
+footer .links-footer {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*!*gap: 63;*!*/
+    /*justify-content: space-between;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .links-footer .four-block-footer {
+    display: flex;
+    gap: 6.2vw;
+}
+
+footer .links-footer .follow,
+footer .links-footer .products,
+footer .links-footer .why-mujo,
+footer .links-footer .company,
+footer .links-footer .stay-in-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+footer .links-footer .follow div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+footer .title-links-footer {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+footer .links-footer .why-mujo ul,
+footer .links-footer .company ul,
+footer .links-footer .products ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+footer .links-footer .stay-in-touch form {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+footer .links-footer .stay-in-touch form .input-email-footer {
+    width: 22.2vw;
+    height: 5.3vh;
+    background: transparent;
+    border: 1px solid rgba(198, 198, 189, 1);
+    border-radius: 4px;
+    padding: 14px 20px;
+    text-align: match-parent;
+}
+
+footer .links-footer .stay-in-touch form div {
+    width: 22vw;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.5;
+}
+
+footer .links-footer .stay-in-touch form div label {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+
